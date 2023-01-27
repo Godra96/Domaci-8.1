@@ -1,0 +1,78 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* nece da mi pomocu align-items i justify-content postavi na sredinu pa sam stavio padding top 13 px....*/
+.headerDiv {
+	background-color: #191919;
+	color: white;
+	height: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding-top: 13px;
+}
+
+.headerListStyle {
+	list-style-type: none;
+}
+
+.flexHeaderList {
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+	align-items: center;
+}
+
+.pictureDiv {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+/*ovdje sam namjerno stavio visinu 800px da bih testirao fiksirani footer..*/
+.descriptionDiv {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	line-height: 35px;
+}
+
+.descriptionDiv h1 {
+	font-size: 30px;
+	color: rgb(46, 61, 61);
+}
+
+.descriptionDiv p {
+	color: rgb(75, 75, 75);
+}
+
+.buttonContact {
+	background-color: #191919;
+	border-radius: 6px;
+	color: white;
+	padding: 5px 10px;
+	font-size: 16px;
+}
+
+.buttonContact:hover {
+	background-color: #191919;
+	font-size: 18px;
+}
+
+.footerDiv {
+	background-color: #191919;
+	color: white;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
